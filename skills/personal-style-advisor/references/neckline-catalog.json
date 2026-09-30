@@ -1,0 +1,29 @@
+{
+  "catalog_version": "3.0",
+  "purpose": "服装目录分类，不推断或代表用户的性别身份。",
+  "id_policy": "NC-### 是跨类别稳定 ID；重复出现在不同类别的领口共用同一 ID。不要因类别或本次排序变化而重新编号。",
+  "default_sets": {
+    "menswear": ["NC-001", "NC-002", "NC-003", "NC-004", "NC-005", "NC-006", "NC-007", "NC-008"],
+    "womenswear": ["NC-001", "NC-009", "NC-010", "NC-002", "NC-011", "NC-012", "NC-004", "NC-007"],
+    "gender-neutral": ["NC-001", "NC-013", "NC-002", "NC-003", "NC-005", "NC-004", "NC-006", "NC-008"]
+  },
+  "items": [
+    {"id":"NC-001","name_zh":"圆领","name_en":"Crew neck","structure":"圆/U/方等开口领","scenes":["日常","基础内搭"],"notes":"观察领口弧度、肩线与内搭层次。"},
+    {"id":"NC-002","name_zh":"浅V领","name_en":"Shallow V-neck","structure":"V/交叠领","scenes":["日常","单穿或叠穿"],"notes":"区分开口深度与内搭露出，不夸大颈部比例。"},
+    {"id":"NC-003","name_zh":"Polo领","name_en":"Polo collar","structure":"翻领","scenes":["休闲","轻通勤"],"notes":"展示翻领与门襟开合；版型依用户目标调整。"},
+    {"id":"NC-004","name_zh":"经典衬衫领","name_en":"Classic shirt collar","structure":"翻领","scenes":["日常","通勤","叠穿"],"notes":"可展示扣合与开领两种层次；标明外层或内层。"},
+    {"id":"NC-005","name_zh":"古巴领","name_en":"Camp / Cuban collar","structure":"翻领","scenes":["休闲","夏季"],"notes":"宽松开领短袖常见；避免误画成深V。"},
+    {"id":"NC-006","name_zh":"立领","name_en":"Stand collar","structure":"立领/高领","scenes":["日常","通勤","外套"],"notes":"显示领高与颈部留量。"},
+    {"id":"NC-007","name_zh":"半高领","name_en":"Mock neck","structure":"立领/高领","scenes":["日常","针织","内搭"],"notes":"领高低于常规高领，完整显示领口边缘。"},
+    {"id":"NC-008","name_zh":"拉链立领","name_en":"Zip stand collar","structure":"立领/高领","scenes":["休闲","运动","外套"],"notes":"拉链开合需与领口示意和实穿一致。"},
+    {"id":"NC-009","name_zh":"U领","name_en":"Scoop / U-neck","structure":"圆/U/方等开口领","scenes":["日常","针织"],"notes":"开口较圆领宽或低，显示实际边线。"},
+    {"id":"NC-010","name_zh":"方领","name_en":"Square neck","structure":"圆/U/方等开口领","scenes":["日常","轻正式"],"notes":"强调方形结构；仅在用户选择的服装目录中采用。"},
+    {"id":"NC-011","name_zh":"船领","name_en":"Boat neck","structure":"圆/U/方等开口领","scenes":["日常","轻正式"],"notes":"横向领线清楚可见，不推断肩宽。"},
+    {"id":"NC-012","name_zh":"裹身领","name_en":"Wrap neckline","structure":"V/交叠领","scenes":["日常","轻正式"],"notes":"交叠方向和覆盖边线应一致。"},
+    {"id":"NC-013","name_zh":"宽圆领","name_en":"Wide crew neck","structure":"圆/U/方等开口领","scenes":["中性日常","休闲"],"notes":"比基础圆领横向开口更宽；不以此推断身份。"},
+    {"id":"NC-101","name_zh":"一字露肩","name_en":"Off-shoulder","structure":"露肩及礼服领","scenes":["用户指定礼服","用户明确想尝试"],"notes":"扩展款；不得自行加入默认日常目录。"},
+    {"id":"NC-102","name_zh":"抹胸","name_en":"Strapless","structure":"露肩及礼服领","scenes":["用户指定礼服","用户明确想尝试"],"notes":"扩展款；不得自行加入默认日常目录。"},
+    {"id":"NC-103","name_zh":"心形领","name_en":"Sweetheart neckline","structure":"露肩及礼服领","scenes":["用户指定礼服","用户明确想尝试"],"notes":"扩展款；不得自行加入默认日常目录。"},
+    {"id":"NC-104","name_zh":"挂脖","name_en":"Halter","structure":"露肩及礼服领","scenes":["用户指定礼服","用户明确想尝试"],"notes":"扩展款；不得自行加入默认日常目录。"}
+  ]
+}

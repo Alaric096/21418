@@ -1,0 +1,133 @@
+[
+  {
+    "id": "report-01",
+    "title": "个人基础与风格概览",
+    "status": "confirmed",
+    "source": "用户批准的六页拆分",
+    "required_sections": [
+      "可见脸部轮廓/下颌、发丝/发际线和肩颈观察；无法判断项",
+      "照片光线、角度、遮挡和画质如何限制观察",
+      "与本次目标相关的风格建议和依据；不推断身份、性格或健康"
+    ],
+    "layout_notes": "仅借用ref-05/07/08的观察及布局线索，不混入领口结论。",
+    "needs_reference_person": true,
+    "module_id": "hair-guide",
+    "source_refs": [
+      "ref-05",
+      "ref-07",
+      "ref-08"
+    ],
+    "assignment_basis": "用户批准的六页拆分"
+  },
+  {
+    "id": "report-02",
+    "title": "发型推荐及长短对比",
+    "status": "confirmed",
+    "source": "用户批准的六页拆分",
+    "required_sections": [
+      "本人可见特征支持的推荐及较低优先级发型",
+      "短发、中发、长发三档同一人物模拟",
+      "三档有清楚差异；不重复report-03的发色内容"
+    ],
+    "layout_notes": "每格引用原始本人照片，检查脸、眼镜和发际线；差异主要限于发型长度与轮廓。",
+    "needs_reference_person": true,
+    "module_id": "hair-guide",
+    "source_refs": [
+      "ref-07",
+      "ref-08"
+    ],
+    "assignment_basis": "用户批准的六页拆分"
+  },
+  {
+    "id": "report-03",
+    "title": "刘海、分缝与发色",
+    "status": "confirmed",
+    "source": "用户批准的六页拆分",
+    "required_sections": [
+      "不同刘海和分缝方向及依据",
+      "冷、暖、中性发色色块",
+      "同一用户发色模拟及成像限制"
+    ],
+    "layout_notes": "只调整发型相关项目；发色不能带来脸型、肤色或眼镜意外变化。",
+    "needs_reference_person": true,
+    "module_id": "hair-guide",
+    "source_refs": [
+      "ref-07",
+      "ref-08"
+    ],
+    "assignment_basis": "用户批准的六页拆分"
+  },
+  {
+    "id": "report-04",
+    "title": "上衣颜色、领型与面料",
+    "status": "confirmed",
+    "source": "用户批准的六页拆分",
+    "required_sections": [
+      "中性色、柔和色、深色；注明照片色偏限制",
+      "只选本次8个稳定领口ID中的5项；名称、示意和本人实穿一致",
+      "针织、棉、毛、丝感和挺括面料；说明这是视觉示意",
+      "推荐、可尝试、较低优先级及依据"
+    ],
+    "layout_notes": "按用户当前穿搭类别和目标场景构建版型与搭配；与report-05/06使用相同的8个领口ID。",
+    "needs_reference_person": true,
+    "module_id": "tops-styling",
+    "source_refs": [
+      "ref-02"
+    ],
+    "assignment_basis": "用户批准的六页拆分"
+  },
+  {
+    "id": "report-05",
+    "title": "用户指定风格组穿搭",
+    "status": "confirmed",
+    "source": "用户批准的六页拆分",
+    "required_sections": [
+      "逐组按用户指定数量制作穿搭",
+      "每套记录唯一look ID、单品层次、领口ID、场景与姿态",
+      "每套记录有来源的个性化依据、设计选择、预期视觉效果、备选与现实试穿点；未知不得写成事实",
+      "组间有单品、轮廓和层次差异，不能只换背景或颜色",
+      "四套页至少三种自然可见动作",
+      "不可见腿脚只作搭配模拟，不验证体态比例"
+    ],
+    "layout_notes": "每组按指定数量独立排版；四套可一页，其他数量按可读性拆页。风格组与数量写入运行副本style-profile.json。",
+    "needs_reference_person": true,
+    "module_id": "tops-styling",
+    "source_refs": [
+      "ref-02"
+    ],
+    "assignment_basis": "用户批准的六页拆分",
+    "outfit_group_schema": {
+      "group_id": "",
+      "style_label": "",
+      "count": 0,
+      "look_ids": [],
+      "page_file": "",
+      "style_notes": "",
+      "look_decisions": []
+    },
+    "count_policy": "总数为组数量之和；与用户口头总数冲突时先确认，若授权继续则按逐组明确数量并记录口径。"
+  },
+  {
+    "id": "report-06",
+    "title": "8种领口 × 3种发型适配表",
+    "status": "confirmed",
+    "source": "用户批准的六页拆分",
+    "required_sections": [
+      "总览8行、5个视觉列、24个人像；本次选定的8个稳定领口ID和顺序",
+      "每行有领口示意、同一人物三个不同发型、1至2句中文理由",
+      "三个人像真实呈现该行领口并显示肩颈；逐格检查身份和款式",
+      "最终尺寸总览不够清楚时增加覆盖全部8行的放大详情页"
+    ],
+    "layout_notes": "由本次style-profile.json选定目录填充；不是固定的旧女装示例领口清单。总览可用作导航，详情补足逐格可读性。",
+    "needs_reference_person": true,
+    "module_id": "neckline-hair",
+    "source_refs": [
+      "ref-01",
+      "ref-03",
+      "ref-04",
+      "ref-05",
+      "ref-06"
+    ],
+    "assignment_basis": "用户批准的六页拆分"
+  }
+]

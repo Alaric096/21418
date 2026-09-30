@@ -1,0 +1,89 @@
+{
+  "route": {
+    "clothing_category": "menswear | womenswear | gender-neutral",
+    "route_basis": "user_choice | scene | optional_photo_cue | clarification",
+    "user_choice_text": "",
+    "excluded_items": [],
+    "scene": "",
+    "category_changed_by_user": false
+  },
+  "necklines": {
+    "catalog_file": "references/neckline-catalog.json",
+    "selected_ids_in_order": [],
+    "report_04_ids_in_order": [],
+    "user_requested_extensions": [],
+    "notes": "第04、05、06页必须沿用同一组ID；修改时同步更新三个页面。"
+  },
+  "reference_photos": [
+    {
+      "file_label": "photo-1",
+      "role": "primary_face | profile_support | visible_body_support",
+      "angle": "",
+      "mirror_status": "confirmed | unknown",
+      "visible_area": "",
+      "limits": []
+    }
+  ],
+  "stable_appearance": {
+    "glasses": "retain_reference_frame | user_authorized_change | not_visible",
+    "face_and_feature_relationships": "preserve",
+    "visible_marks": "preserve where visible",
+    "skin_tone_and_texture": "preserve natural appearance",
+    "visible_body_shape": "preserve; do not infer unseen proportions"
+  },
+  "allowed_changes_by_deliverable": {
+    "report-01": [],
+    "report-02": [
+      "hair length and style silhouette"
+    ],
+    "report-03": [
+      "parting",
+      "fringe",
+      "hair color"
+    ],
+    "report-04": [
+      "selected neckline",
+      "top color",
+      "visual fabric texture"
+    ],
+    "report-05": [
+      "selected outfit",
+      "natural pose variation"
+    ],
+    "report-06": [
+      "this row neckline",
+      "this cell hairstyle"
+    ]
+  },
+  "pose_plan": [],
+  "image_tool_limits": [],
+  "outfit_plan": {
+    "declared_total_by_user": null,
+    "computed_total_from_groups": null,
+    "count_conflict": false,
+    "resolution": "unresolved | clarified | follow_explicit_group_counts",
+    "groups": [
+      {
+        "group_id": "",
+        "style_label": "",
+        "count": 0,
+        "look_ids": [],
+        "page_file": "",
+        "style_notes": "",
+        "look_decisions": [
+          {
+            "look_id": "",
+            "evidence_source": "",
+            "evidence_confidence": "visible | partial | user_choice | hypothesis",
+            "styling_goal": "",
+            "outfit_and_neckline_id": "",
+            "expected_visual_effect": "",
+            "scene_and_pose": "",
+            "alternative": "",
+            "real_world_try_on_check": ""
+          }
+        ]
+      }
+    ]
+  }
+}
